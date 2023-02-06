@@ -1,0 +1,5 @@
+# to create database in Python command line use the following
+
+from market import app, db
+app.app_context().push()
+db.create_all()
